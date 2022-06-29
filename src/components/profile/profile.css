@@ -1,0 +1,15 @@
+.profile{
+     border: 1px solid #868686;
+}
+
+.social ul,
+.skills ul{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.social ul li,
+.skills ul li{
+    display: inline-block;
+    margin-right: 15px;
+}

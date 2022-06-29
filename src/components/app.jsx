@@ -1,26 +1,24 @@
 import React from "react";
 
+import Profile from "./profile";
+
 class App extends React.Component {
 
     render(){
+
+        // function MyFunctionalComponent (){
+        //     return <h2>Hello {10+10}</h2>;
+        // }
+
         return (
-            
-            <h1>Hello</h1>
-            
+            <div className="app">
+                {/* <MyFunctionalComponent/> */}
+                <Profile/>
+            </div>
+
         );
     }
 }
 
 
 export default App;
-
-function MyFunctionalComponent (){
-    let name = "Rabiul Islam";
-    return <h2>Hello ${name}</h2>
-}
-
-const AnoterFunction = () => ( "hi");
-
-AnoterFunction();
-
-MyFunctionalComponent();
